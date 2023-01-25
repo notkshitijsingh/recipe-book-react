@@ -34,22 +34,22 @@ const SeeMoreText = styled.span`
   color: white;
   font-size: 18px;
   text-align: center;
-  border: solid 1px #eb3300;
-  background-color: #eb3300;
+  border: solid 1px #f2645c;
+  background-color: #f2645c;
   border-radius: 50px;
   padding: 10px 15px;
   cursor: pointer;
 `;
 const IngredientsText = styled(SeeMoreText)`
   color: white;
-  border: solid 1px green;
-  background-color: green;
+  border: solid 1px #71d271;
+  background-color: #71d271;
   margin-bottom: 12px;
 `;
 const SeeNewTab = styled(SeeMoreText)`
   color: white;
-  border: solid 1px green;
-  background-color: green;
+  border: solid 1px #71d271;
+  background-color: #71d271;
 `;
 const RecipeComponent = (props) => {
   const [show, setShow] = useState("");
