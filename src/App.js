@@ -167,7 +167,7 @@ const AppComponent = () => {
     <Container>
       <Header>
         <SearchBox>
-          <SearchIcon src="/react-recipe-finder/search-icon.svg" />
+          <SearchIcon src="./search-icon.svg" alt="O" />
           <SearchInput
             placeholder="Search"
             value={searchQuery}
@@ -181,7 +181,7 @@ const AppComponent = () => {
             <RecipeComponent key={index} recipe={recipe.recipe} />
           ))
         ) : (
-          <Placeholder src="/react-recipe-finder/club_logo - icon.png" />
+          <Placeholder src="./club_logo - icon.png" alt="The Purrfect Plate" />
         )}
       </RecipeListContainer>
     </Container>
